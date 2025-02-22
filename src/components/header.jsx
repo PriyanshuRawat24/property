@@ -44,7 +44,7 @@ const Header = () => {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex  space-x-8 items-center bg-gray-200 px-8 rounded-full">
+            <div className="hidden md:flex  space-x-8 items-center bg-gray-100 px-16 rounded-full">
               {navigationLinks.map((link) => (
                 <Link
                   key={link.href}
@@ -108,8 +108,8 @@ const Header = () => {
               </div>
               {/* get a quote */}
               <Link href={"/"}>
-              <button className="rounded-full bg-orange-500 text-white px-6 py-2 hover:bg-orange-600 transition">
-                Click Me
+              <button className="rounded-full bg-red-600 text-white px-6 py-2 hover:bg-orange-600 transition">
+                Get a Quote
               </button>
               </Link>
             </div>

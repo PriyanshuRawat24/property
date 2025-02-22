@@ -32,8 +32,8 @@ const Footer = () => {
               placeholder="Your Email"
               className="w-full border-none px-4 py-3 rounded-md text-black focus:outline-none"
             />
-            <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white p-2 rounded-lg">
-              <FaBell size={18} />
+            <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-red-600 text-white p-2 rounded-lg">
+              <FaBell size={18} className=""/>
             </button>
           </div>
         </div>
@@ -81,18 +81,18 @@ const Footer = () => {
         </div>
 
         {/* Contact Information */}
-        <div>
+        <div className="text-white">
           <h3 className="font-semibold mb-3">Contact Information</h3>
-          <div className="flex items-center space-x-2 text-gray-400">
-            <FaBell className="text-red-500" />
+          <div className="flex items-center space-x-2 text-white">
+            <FaBell className="text-red-600" />
             <p>1426 StreetBend,7702, California, USA</p>
           </div>
-          <div className="flex items-center space-x-2 mt-3 text-gray-400">
-            <FaPhone className="text-red-500" />
+          <div className="flex items-center space-x-2 mt-3 text-white">
+            <FaPhone className="text-red-600" />
             <p className="font-bold underline">815-804-8928</p>
           </div>
-          <div className="flex items-center space-x-2 mt-3 text-gray-400">
-            <FaEnvelope className="text-red-500" />
+          <div className="flex items-center space-x-2 mt-3 text-white">
+            <FaEnvelope className="text-red-600" />
             <p>support@palace.com</p>
           </div>
         </div>
